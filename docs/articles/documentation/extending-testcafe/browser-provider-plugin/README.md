@@ -96,11 +96,11 @@ async resizeWindow (/* id, width, height, currentWidth, currentHeight */) {
 
 async canResizeWindowToDimensions (/* browserId, width, height */) {
     return true;
-}
+},
 
 async takeScreenshot (/* id, screenshotPath, pageWidth, pageHeight */) {
     this.reportWarning('The screenshot functionality is not supported by the "my-provider" browser provider.');
-}
+},
 
 async maximizeWindow (/*browserId*/) {
     this.reportWarning('The window maximization functionality is not supported by the "my-provider" browser provider.');
@@ -170,7 +170,7 @@ export default {
         var { width: screenWidth, height: screenHeight } = this.screenSizes[id];
 
         return width <= screenWidth && height <= screenHeight;
-    }
+    },
 
     async maximizeWindow (id) {
         await browserTools.maximize(id);
