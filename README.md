@@ -316,12 +316,6 @@ To display this badge, add the following code to your repository readme:
 
 [LambdaTest](https://www.lambdatest.com/) is a cloud based selenium grid infrastructure that can help you run automated cross browser compatibility tests on 2000+ different browser and operating system environments. All test data generated during testing including Selenium command logs, screenshots generated in testing, video logs, selenium logs, network logs, console logs, and metadata logs can be extracted using [LambdaTest automation APIs](https://www.lambdatest.com/support/docs/api-doc/). This data can then be used for creating custom reports.
 
-## Thanks to BrowserStack
-
-We are grateful to BrowserStack for providing the infrastructure that we use to test code in this repository.
-
-<a href="https://www.browserstack.com/"><img alt="BrowserStack Logo" src="https://raw.github.com/DevExpress/testcafe/master/media/BrowserStack.png"/></a>
-
 ## License
 
 Code released under the [MIT license](LICENSE).
